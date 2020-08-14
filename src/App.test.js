@@ -8,6 +8,14 @@
 //   expect(linkElement).toBeInTheDocument();
 // });
 
-import SHOP_DATA from './components/shop/shop.data.js';
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+
+const firestore = firebase.firestore();
+
+
+firestore.collection('users').doc('oQgs8W42ZSk3sQ6tqMvN').collection('cartItems').doc('ItjLpm6q47BA2HimWQ1Z');
+firestore.doc('/users/oQgs8W42ZSk3sQ6tqMvN/cartItems/xVQBJRkkCcXx8KdELT3v');
+firestore.collection('/users/oQgs8W42ZSk3sQ6tqMvN/cartItems');
 
 
