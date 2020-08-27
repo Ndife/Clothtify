@@ -19,3 +19,5 @@ firestore.doc('/users/oQgs8W42ZSk3sQ6tqMvN/cartItems/xVQBJRkkCcXx8KdELT3v');
 firestore.collection('/users/oQgs8W42ZSk3sQ6tqMvN/cartItems');
 
 
+// addCollectionAndDocuments('collections', collectionsArray.map(({title, items}) => ({title, items})));
+// collectionsArray: selectCollectionsForPreview
