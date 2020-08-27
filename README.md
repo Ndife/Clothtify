@@ -1,1 +1,1 @@
-Online shopping application built with React| Redux| Firebase | stripe | redux-persist | reselect | scss | JXS
+Online shopping application built with React| Redux| Firebase | stripe | redux-persist | reselect | scss 
