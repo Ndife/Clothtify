@@ -13,6 +13,10 @@ export const CartDropdownContainer = styled.div`
   top: 80px;
   right: 0;
   z-index: 5;
+
+  @media screen and (max-width: 800px){
+    margin-right: 10px;
+  }
 `;
 
 export const CartItemContainer = styled.div`
