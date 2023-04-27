@@ -2,7 +2,7 @@
   "name": "clothtify-server",
   "version": "1.0.0",
   "engines": {
-    "node": "18.13.0",
+    "node": ">=16",
     "npm": "9.6.5"
   },
   "scripts": {
