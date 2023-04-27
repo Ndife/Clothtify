@@ -4,13 +4,13 @@ import 'firebase/auth';
 
 
 const config = {
-    apiKey: "AIzaSyABrNotYm-We6aOUlhF2apX5_wHd7-wQ10",
+    apiKey: process.env.REACT_APP_API_KEY,
     authDomain: "clothtify-db.firebaseapp.com",
     databaseURL: "https://clothtify-db.firebaseio.com",
     projectId: "clothtify-db",
     storageBucket: "clothtify-db.appspot.com",
     messagingSenderId: "432078027795",
-    appId: "1:432078027795:web:1abe10189b9579e10dd3e6",
+    appId: process.env.REACT_APP_APP_ID,
     measurementId: "G-LW09XSCWC1"
   };
 
