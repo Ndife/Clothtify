@@ -2,8 +2,8 @@
   "name": "clothtify-server",
   "version": "1.0.0",
   "engines": {
-    "node": ">=16",
-    "npm": "9.6.5"
+    "node": "16.18.0",
+    "npm": "6.12.0"
   },
   "scripts": {
     "client": "cd client && yarn start",
@@ -23,7 +23,8 @@
     "stripe": "6.28.0"
   },
   "devDependencies": {
-    "concurrently": "^4.0.1"
+    "concurrently": "^4.0.1",
+    "nodemon": "^2.0.22"
   },
   "description": "online shopping",
   "main": "server.js",
